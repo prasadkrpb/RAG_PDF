@@ -1,0 +1,8 @@
+langchain
+langchain-community
+langchain_groq
+cassio
+sentence-transformers
+streamlit
+PyPDF2
+sentence-transformers
