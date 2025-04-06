@@ -23,7 +23,7 @@ st.set_page_config(page_title="📄 PDF Query GenAI", layout="wide")
 st.title("📄 Upload and Query Your PDFs (RAG (Astra DB) + ChatGroq (gemma2-9b-it))")
 
 # Set up embedding and vectorstore
-embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L6-v2")
 vectorstore = Cassandra(
     embedding=embeddings,
     table_name="pdf_chunks",
