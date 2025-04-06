@@ -1,4 +1,4 @@
-langchain==0.2
+langchain==0.3.19
 langchain-community
 langchain_groq
 cassio
